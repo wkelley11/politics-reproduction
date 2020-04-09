@@ -4,7 +4,8 @@ var map = L.map( 'map', {
     zoom: 2
 });
 
-L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+
+L.tileLayer( 'http://{s}.tile.openstreetmap.org/{1}/{1}/{1}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     subdomains: ['a','b','c']
 }).addTo( map );
